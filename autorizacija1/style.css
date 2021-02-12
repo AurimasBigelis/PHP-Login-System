@@ -1,0 +1,47 @@
+body{
+background-color: #DCDCDC;
+}
+
+.left{
+width: 300px;
+
+float: left;
+}
+p{
+  font-family: 'Lobster', cursive;
+}
+.right{
+width:300px;
+float: right;
+}
+h1{
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+h2{
+    text-align: center;
+    text-transform: uppercase;
+
+}
+h3{
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.main {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: background-color: #DCDCDC;;
+}
+.main .box {
+  background-color:background-color: #DCDCDC;;
+  width: 50%;
+  margin: 10px;
+font-family: 'Lobster', cursive;
+}
+.logout{
+  font-size: 35px;
+  color: #800000;
+}
